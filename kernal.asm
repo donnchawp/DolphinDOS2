@@ -2490,19 +2490,16 @@
 6a02 20 d5 f3 jsr $f3d5
 6a05 90 4f    bcc $6a56
 6a07 4c 13 f7 jmp $f713
-6a0a 93       ???
-6a0b 4c 69 0d jmp $0d69
-6a0e 00       brk 
-6a0f 53       ???
+6a0a 4c 4f 61 jmp $614f
+6a0d 0d 00 53 ora $5300
 6a10 79 24 30 adc $3024,y
 6a13 9d 00 93 sta $9300,x
-6a16 52       ???
-6a17 75 0d    adc $0d,x
-6a19 00       brk 
-6a1a 56 65    lsr $65,x
-6a1c 0d 00 4c ora $4c00
-6a1f 4f       ???
-6a20 61 0d    adc ($0d,x)
+6a16 40       rti
+6a17 24 0d    bit $0d
+6a19 00       brk
+6a1a 52 65    lsr $65,x
+6a1c 0d 00 93 ora $9300
+6a1f 4c 69 0d jmp $0d69
 6a22 00       brk 
 6a23 53       ???
 6a24 41 76    eor ($76,x)
@@ -2511,8 +2508,8 @@
 6a28 3a       ???
 6a29 00       brk 
 6a2a 93       ???
-6a2b 40       rti 
-6a2c 24 0d    bit $0d
+6a2b 52       ???
+6a2c 75 0d    adc $0d,x
 6a2e 00       brk 
 6a2f 40       rti 
 6a30 58       cli 

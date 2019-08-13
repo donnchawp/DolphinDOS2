@@ -24,6 +24,20 @@ can be installed in an Ultimate64 without any extra hardware.
 
 Reboot the machine and you should see DOLPHINDOS 2.0 on the screen.
 
+## USAGE
+
+Use the functions keys as shortcut keys:
+* F1	LOAD"0:*",8,1(RETURN)
+* F2	SYS$0 (JUMP TO MONITOR)
+* F3	DISPLAY DIRECTORY
+* F4	VERIFY(RETURN)
+* F5	LIST(RETURN)
+* F6	SAVE"@:(ADD PROG NAME AND RETURN)
+* F7 	RUN(RETURN)
+* F8	@X(RETURN)
+
+Note: [Version 1](https://github.com/donnchawp/DolphinDOS2/releases/tag/1.0) retains the original DolphinDOS 2 keys.
+
 ## Related Links
 * [DolphinDOS 2 Project page](http://e4aws.silverdr.com/projects/dolphindos2/).
 * [Original DolphinDOS Manual](https://web.archive.org/web/20161101205150/http://project64.c64.org/hw/dolphindos.txt).
