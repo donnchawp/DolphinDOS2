@@ -66,7 +66,7 @@ acme -o rom/dd2_kernal.rom kernal.asm
 
 On macOS, ACME can be installed with Homebrew: `brew install acme`
 
-The output `dd2_kernal.rom` is a raw 8190-byte binary that can be used directly as a KERNAL ROM replacement.
+The output `dd2_kernal.rom` is a raw 8192-byte binary that can be used directly as a KERNAL ROM replacement.
 
 ## Related Links
 * [DolphinDOS 2 Project page](http://e4aws.silverdr.com/projects/dolphindos2/).
